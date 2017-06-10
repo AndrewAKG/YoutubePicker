@@ -78,7 +78,7 @@ const styles = {
         fontSize: 50,
         paddingTop: 20,
         paddingLeft: 20,
-        paddingBottom: 100
+        paddingBottom: 60
     },
     ButtonStyle: {
         backgroundColor: '#2F225C',
