@@ -10,23 +10,5 @@
         sha1="21ef913418758caa0a6ddaf988523757aeb488ef">
         <dex dex="/home/andrew/YoutubePicker/android/app/build/intermediates/pre-dexed/debug/classes_70a343c110c6e4aa5d9c588a028e0ac149786562.jar" />
     </item>
-    <item
-        is-multidex="true"
-        jar="/home/andrew/YoutubePicker/android/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="/home/andrew/YoutubePicker/android/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_62240ec622ac1a39daded2aaf55208a2edb70287/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/andrew/YoutubePicker/android/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="7863084733c45d9a4a8668dc2f4c453d448629b1">
-        <dex dex="/home/andrew/YoutubePicker/android/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_c00246dbd5c2b5447f3d888c3d8e25ef8fa7ba17/classes.dex" />
-    </item>
 
 </items>
