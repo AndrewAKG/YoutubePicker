@@ -20,5 +20,6 @@ export const SEARCH_YOUTUBE_FAIL = 'search_youtube_fail';
 export const ADD_FAVOURITE_SUCCESS = 'fav_success';
 export const ADD_FAVOURITE_FAIL = 'fav_fail';
 export const USER_FAVOURITES_FETCH = 'user_favourites';
+export const USER_FAVOURITES_FETCH_LOADING = 'user_fetch_loading';
 export const REMOVE_FAVOURITE_SUCCESS = 'remove_fav_suc';
 export const INITIATING_STATE = 'initialize_state';

@@ -85,9 +85,9 @@ const mapStateToProps = state => {
         return { ...val };
     });
 
-    const { error } = state.search;
+    const { error , loading } = state.search;
 
-    return { videos, error };
+    return { videos, error , loading };
 }
 
 // exporting YouTubeList Component to other Components

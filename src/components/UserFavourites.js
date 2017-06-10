@@ -3,7 +3,7 @@ import _ from 'lodash';
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { ListView, Text } from 'react-native';
-import { Toast, Container, Content } from 'native-base';
+import { Toast, Container, Content , Spinner } from 'native-base';
 import ListItem from './ListItem';
 
 // importing needed Actions
@@ -33,7 +33,7 @@ class UserFavourites extends Component {
     }
 
     // notifying user with a Toast
-        alertFunction(message) {
+    alertFunction(message) {
         Toast.show({
             supportedOrientations: ['portrait', 'landscape'],
             text: message,
@@ -49,6 +49,13 @@ class UserFavourites extends Component {
         }
     }
 
+    // render Spinner
+    renderSpinner() {
+        if (this.props.loading) {
+            return <Spinner style={{ alignSelf: 'center' }} />
+        }
+    }
+
     // Rendering  ListView Row
     renderRow(video) {
         return <ListItem video={video} />
@@ -59,6 +66,7 @@ class UserFavourites extends Component {
         return (
             <Container>
                 <Content>
+                    {this.renderSpinner()}
                     <ListView
                         enableEmptySections
                         dataSource={this.dataSource}
@@ -78,9 +86,9 @@ const mapStateToProps = state => {
         return { ...val, uid };
     });
 
-    const { error } = state.search;
+    const { error, loading } = state.search;
 
-    return { videos, error };
+    return { videos, error, loading };
 }
 
 // exporting UserFavourite Components to other Components

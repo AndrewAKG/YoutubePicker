@@ -13,7 +13,8 @@ import {
     ADD_FAVOURITE_FAIL,
     INITIATING_STATE,
     USER_FAVOURITES_FETCH,
-    REMOVE_FAVOURITE_SUCCESS
+    REMOVE_FAVOURITE_SUCCESS,
+    USER_FAVOURITES_FETCH_LOADING
 } from './Types';
 
 var searchWord = "";
@@ -79,7 +80,7 @@ export const AddingToFavourites = ({ snippet, id }) => {
 export const userFavouritesFetch = () => {
     const { currentUser } = firebase.auth();
     return (dispatch) => {
-        dispatch({ type: INITIATING_STATE });
+        dispatch({ type: USER_FAVOURITES_FETCH_LOADING });
 
         // request sent to firebase server to fetch specific user favourites
         firebase.database().ref(`/users/${currentUser.uid}/favourites`).on('value', snapshot => {
