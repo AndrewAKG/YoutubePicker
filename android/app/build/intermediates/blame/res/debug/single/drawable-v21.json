@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/andrew/YoutubePicker/android/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/home/andrew/.android/build-cache/e648e308ba7e0228b14ab1a0093f7a65a9e68c91/output/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "/home/andrew/YoutubePicker/android/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/home/andrew/.android/build-cache/e648e308ba7e0228b14ab1a0093f7a65a9e68c91/output/res/drawable-v21/abc_btn_colored_material.xml"
+    }
+]

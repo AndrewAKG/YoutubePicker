@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/andrew/YoutubePicker/android/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/home/andrew/.android/build-cache/e648e308ba7e0228b14ab1a0093f7a65a9e68c91/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "/home/andrew/YoutubePicker/android/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/home/andrew/.android/build-cache/e648e308ba7e0228b14ab1a0093f7a65a9e68c91/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+    }
+]

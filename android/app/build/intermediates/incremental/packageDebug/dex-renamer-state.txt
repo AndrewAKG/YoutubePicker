@@ -1,0 +1,7 @@
+#Sat Jun 10 11:49:42 EET 2017
+base.0=/home/andrew/YoutubePicker/android/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_62240ec622ac1a39daded2aaf55208a2edb70287
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/home/andrew/YoutubePicker/android/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_c00246dbd5c2b5447f3d888c3d8e25ef8fa7ba17/classes.dex
+base.1=/home/andrew/YoutubePicker/android/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_c00246dbd5c2b5447f3d888c3d8e25ef8fa7ba17
+file.0=/home/andrew/YoutubePicker/android/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_62240ec622ac1a39daded2aaf55208a2edb70287/classes.dex
