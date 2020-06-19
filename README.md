@@ -3,7 +3,7 @@
 
 # Installation
 - open your terminal
-- git clone https://github.com/TheDreamHunter/YoutubePicker.git
+- git clone https://github.com/AndrewAKG/YoutubePicker.git
 - cd YoutubePicker
 - npm install
 - npm start
